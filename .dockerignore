@@ -1,0 +1,33 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+server/venv/
+**/venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Media and static (если вы храните локально)
+media/
+videos/
+staticfiles/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Docker files
+Dockerfile*
+docker-compose.yml
+
+# Node modules (если фронтенд)
+node_modules/
